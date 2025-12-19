@@ -1,0 +1,56 @@
+/* تعريف الخط العربي */
+@font-face {
+  font-family: myArabic;
+  /* تأكد إن فولدر fonts موجود في نفس المكان مع ملف الـ CSS */
+  src: url('fonts/Cairo-Light-2.ttf');
+}
+
+body {
+  font-family: myArabic, "Segoe UI", Tahoma, sans-serif;
+  direction: rtl;
+  font-size: 22px;
+  margin: 20px;
+  line-height: 1.6;
+  background-color: #FFF6ED;
+  padding-bottom: 80px; 
+}
+
+ul {
+  margin-right: 15px;
+  padding-right: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* --- تنسيق زر جوجل العائم --- */
+.google-float-btn {
+ position: fixed;
+ bottom: 20px;
+ left: 20px;
+ width: 60px;
+ height: 60px;
+ background-color: #4285F4;
+ color: white;
+ border-radius: 50%;
+ border: none;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+ cursor: pointer;
+ z-index: 1000;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: transform 0.2s;
+ -webkit-tap-highlight-color: transparent;
+}
+
+.google-float-btn:active {
+ transform: scale(0.90);
+}
