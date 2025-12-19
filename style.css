@@ -54,3 +54,13 @@ li {
 .google-float-btn:active {
  transform: scale(0.90);
 }
+.footer {
+  text-align: center; 
+  
+  font-size: 14px;         /* تصغير الخط (الحجم الطبيعي 16) */
+  color: #888;             /* لون رصاصي هادي عشان ميزعجش العين */
+  margin-top: 50px;        /* يبعد عن الكلام اللي فوقه شوية */
+  margin-bottom: 20px;     /* مسافة من تحت خالص */
+  font-family: sans-serif; /* خط إنجليزي بسيط ونضيف */
+  direction: ltr;          /* مهم جداً: عشان الكلام إنجليزي يتكتب من الشمال لليمين */
+}
